@@ -1,0 +1,91 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+  display: flexbox;
+}
+
+/**main  frame */
+.mainframe {
+  background-color: #eeeeee;
+  height: 96%;
+  width: 95%;
+  top: 2%;
+  bottom: 2%;
+  right: 2.5%;
+  left: 2.5%;
+  position: absolute;
+
+  display: flex;
+}
+
+/**contacts */
+.contacts {
+  background-color: #feffff;
+  width: 30%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  width: 100%;
+  height: 6%;
+  position: relative;
+  background-color: yellow;
+}
+
+.search-bar {
+  background-color: purple;
+  width: 100%;
+  height: 4.5%;
+  position: relative;
+}
+
+.chats {
+  background-color: rosybrown;
+  height: 90%;
+  width: 100%;
+}
+
+/**chat body */
+.chat-body {
+  background-color: #e1d9d4;
+  width: 70%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 6%;
+  position: relative;
+  background-color: rgb(78, 78, 28);
+}
+
+
+
+
+
+
+
+
+
+
+/**background */
+.background-top {
+  z-index: 0;
+  background-color: #019988;
+  height: 12vh;
+  width: 100vw;
+}
+
+.background-bottom {
+  z-index: 0;
+  background-color: #dedfde;
+  height: 88vh;
+  width: 100vw;
+}
