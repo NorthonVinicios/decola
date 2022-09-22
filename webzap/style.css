@@ -31,7 +31,7 @@ body {
 
 .info {
   width: 100%;
-  height: 6%;
+  height: 9%;
   position: relative;
   background-color: yellow;
 }
@@ -39,7 +39,7 @@ body {
 .search-bar {
   background-color: purple;
   width: 100%;
-  height: 4.5%;
+  height: 6.4%;
   position: relative;
 }
 
@@ -61,9 +61,25 @@ body {
 
 .header {
   width: 100%;
-  height: 6%;
+  height: 8.6%;
   position: relative;
   background-color: rgb(78, 78, 28);
+}
+
+.main-chat {
+  width: 100%;
+  height: 83%;
+  position: relative;
+  background-color: rgb(155, 155, 28);
+}
+
+.keyboard {
+  width: 100%;
+  height: 8.6%;
+  position: relative;
+  background-color: rgb(155, 78, 28);
+  position: relative;
+  bottom: 0%;
 }
 
 
@@ -79,13 +95,13 @@ body {
 .background-top {
   z-index: 0;
   background-color: #019988;
-  height: 12vh;
+  height: 16vh;
   width: 100vw;
 }
 
 .background-bottom {
   z-index: 0;
   background-color: #dedfde;
-  height: 88vh;
+  height: 84vh;
   width: 100vw;
 }
